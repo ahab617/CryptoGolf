@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 
 const connectDB = () => {
     // const uri = process.env.MONGODB_URI;
-    // uri = "mongodb+srv://benjamin:MxakYgSBMLy8FSHY@seevar-cluster.pz8kn.mongodb.net/seevar_db?retryWrites=true&w=majority"
+     uri = "mongodb+srv://benjamin:MxakYgSBMLy8FSHY@seevar-cluster.pz8kn.mongodb.net/seevar_db?retryWrites=true&w=majority"
     //database Name
-    const uri = "mongodb://localhost:27017/cryptogolf";
+    //const uri = "mongodb://localhost:27017/cryptogolf";
     mongoose.connect(`${uri}`, { 
         useNewUrlParser: true,
         useUnifiedTopology: true,
